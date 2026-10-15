@@ -1,0 +1,62 @@
+[
+  {
+    "relative_path": "LICENSE-MIT",
+    "source_url": "https://github.com/storytold/effectcraft/blob/30aaddf7c23329dcdfc72a5bf65b55747bbd6be1/LICENSE-MIT",
+    "sha256": "2da01426cc958cdac55d837acf12ea2966c5b022897be58fca2f09bcc749a563"
+  },
+  {
+    "relative_path": "LICENSE-APACHE",
+    "source_url": "https://github.com/storytold/effectcraft/blob/30aaddf7c23329dcdfc72a5bf65b55747bbd6be1/LICENSE-APACHE",
+    "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+  },
+  {
+    "relative_path": "NOTICE",
+    "source_url": "https://github.com/storytold/effectcraft/blob/30aaddf7c23329dcdfc72a5bf65b55747bbd6be1/NOTICE",
+    "sha256": "a94e36238939b0b8176f207472dd8e8f68555ebcfc9947951d66971ef8c4fe1a"
+  },
+  {
+    "relative_path": "ATTRIBUTION.md",
+    "source_url": "https://github.com/storytold/effectcraft/blob/30aaddf7c23329dcdfc72a5bf65b55747bbd6be1/ATTRIBUTION.md",
+    "sha256": "c25790809a99bbaf83ab440c456032dad9e5664595439c131cf72605770b950e"
+  },
+  {
+    "relative_path": "assets/fonts/OFL-Inter.txt",
+    "source_url": "https://github.com/storytold/effectcraft/blob/30aaddf7c23329dcdfc72a5bf65b55747bbd6be1/assets/fonts/OFL-Inter.txt",
+    "sha256": "b3195af0fb14368d1b3b10fb9d3fe503b7163ea083859d2ee553bc74da07c320"
+  },
+  {
+    "relative_path": "assets/fonts/OFL-NotoSerif.txt",
+    "source_url": "https://github.com/storytold/effectcraft/blob/30aaddf7c23329dcdfc72a5bf65b55747bbd6be1/assets/fonts/OFL-NotoSerif.txt",
+    "sha256": "bf51547e7634b219e85d0391a5836850696497e0cef079857978f286b5d9377f"
+  },
+  {
+    "relative_path": "assets/fonts/OFL-JetBrainsMono.txt",
+    "source_url": "https://github.com/storytold/effectcraft/blob/30aaddf7c23329dcdfc72a5bf65b55747bbd6be1/assets/fonts/OFL-JetBrainsMono.txt",
+    "sha256": "4d9694c4844a13ea377458c3f98c90d2bf83d3c214612dcae2b7808406520708"
+  },
+  {
+    "relative_path": "assets/app-icon/LICENSE.txt",
+    "source_url": "https://github.com/storytold/effectcraft/blob/30aaddf7c23329dcdfc72a5bf65b55747bbd6be1/assets/app-icon/LICENSE.txt",
+    "sha256": "f0e84fb86c30e9dc72c26eb30784ad79ed9ed5b5c9825cd56b9aef8ffb388855"
+  },
+  {
+    "relative_path": "docs/brand/LICENSE-brand.txt",
+    "source_url": "https://github.com/storytold/effectcraft/blob/30aaddf7c23329dcdfc72a5bf65b55747bbd6be1/docs/brand/LICENSE-brand.txt",
+    "sha256": "e188d46d7802de1f5017c7d8b093120da8f7312109b8b5005df5f5fead641a47"
+  },
+  {
+    "relative_path": "dependencies/FilmCraft/LICENSE-MIT",
+    "source_url": "https://github.com/storytold/filmcraft/blob/2c5ba7a72619935f0481f99d59409e0d1844b234/LICENSE-MIT",
+    "sha256": "9e41d18f68f20edcdf5a49136c58a78f251554b303375ca13e2f0b251ae74c4c"
+  },
+  {
+    "relative_path": "dependencies/FilmCraft/LICENSE-APACHE",
+    "source_url": "https://github.com/storytold/filmcraft/blob/2c5ba7a72619935f0481f99d59409e0d1844b234/LICENSE-APACHE",
+    "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+  },
+  {
+    "relative_path": "dependencies/FilmCraft/ATTRIBUTION.md",
+    "source_url": "https://github.com/storytold/filmcraft/blob/2c5ba7a72619935f0481f99d59409e0d1844b234/ATTRIBUTION.md",
+    "sha256": "52615414b857bc552242188a1f474b6821411853ecebcbaab09e445ae57aaad5"
+  }
+]

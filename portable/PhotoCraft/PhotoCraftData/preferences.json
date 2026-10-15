@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "interface": {
+    "canvasBorder": "dropShadow",
+    "canvasColor": "default",
+    "canvasCustomColor": "#282828",
+    "dynamicColorSliders": true,
+    "language": "zh-hans",
+    "showBoundingBoxWhenDraggingLayer": false,
+    "showChannelsInColor": false,
+    "showMenuColors": true,
+    "showTooltips": true,
+    "theme": "proMedium",
+    "uiFontSize": "small",
+    "uiScale": "auto"
+  }
+}

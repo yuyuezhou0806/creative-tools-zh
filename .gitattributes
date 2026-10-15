@@ -1,0 +1,7 @@
+*.md text eol=lf
+*.json text eol=lf
+*.patch -text
+*.cmd -text
+*.txt -text
+licenses/** -text
+portable/** -text

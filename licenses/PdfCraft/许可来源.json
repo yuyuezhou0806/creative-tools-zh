@@ -1,0 +1,177 @@
+[
+  {
+    "relative_path": "source/LICENSE-MIT",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/LICENSE-MIT",
+    "sha256": "cd7032ea33b71427f188e34ffb4aee9d6868a57fd196037c5c8b2be03a2a0352"
+  },
+  {
+    "relative_path": "source/LICENSE-APACHE",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/LICENSE-APACHE",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "relative_path": "source/NOTICE",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/NOTICE",
+    "sha256": "424ecb90f3bd76e75ae3e0c5f0c9db8d6c9fbb5feeb73c5856150133d2338bc9"
+  },
+  {
+    "relative_path": "source/ATTRIBUTION.md",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/ATTRIBUTION.md",
+    "sha256": "d45570e97066cb3e102d46ab0ae42f5f6cf7184d569b0c6556b22b6e17698222"
+  },
+  {
+    "relative_path": "source/ATTRIBUTION.toml",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/ATTRIBUTION.toml",
+    "sha256": "4f7e7fca496c20abd562214a59ee85434daf7e74a8c6bf3f0a559accf21873a3"
+  },
+  {
+    "relative_path": "source/docs/brand/LICENSE-brand.txt",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/docs/brand/LICENSE-brand.txt",
+    "sha256": "0f33f48e7a96cd359d4e4e5b11424b13cebeb59cc70c77928186695e4173585c"
+  },
+  {
+    "relative_path": "source/assets/app-icon/LICENSE.txt",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/assets/app-icon/LICENSE.txt",
+    "sha256": "b768acafe6cbad8247eedf86b5b5381feefcd4ee0f8c7808b86811bc687cf37b"
+  },
+  {
+    "relative_path": "source/assets/icons/LICENSE-lucide.txt",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/assets/icons/LICENSE-lucide.txt",
+    "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+  },
+  {
+    "relative_path": "source/assets/fonts/OFL-Inter.txt",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/assets/fonts/OFL-Inter.txt",
+    "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+  },
+  {
+    "relative_path": "source/assets/fonts/OFL-JetBrainsMono.txt",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/assets/fonts/OFL-JetBrainsMono.txt",
+    "sha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697"
+  },
+  {
+    "relative_path": "source/assets/fonts/OFL-DancingScript.txt",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/assets/fonts/OFL-DancingScript.txt",
+    "sha256": "6f090277c00af96651ce6dbcc38ff1591047a3bffef486e80b6a32e8276a8201"
+  },
+  {
+    "relative_path": "source/vendor/egui-wgpu/LICENSE-APACHE",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/egui-wgpu/LICENSE-APACHE",
+    "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90"
+  },
+  {
+    "relative_path": "source/vendor/egui-wgpu/LICENSE-MIT",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/egui-wgpu/LICENSE-MIT",
+    "sha256": "95ca92f5f8ea5231f1580b3a2a799e8260af3114b900e1def5355a7f44bcf60c"
+  },
+  {
+    "relative_path": "source/vendor/hayro/LICENSE-APACHE",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/hayro/LICENSE-APACHE",
+    "sha256": "0cec06e0e55fbc3dc5cee4fca9b607f66cb8f4e4dbcf3b3c013594dd156732e9"
+  },
+  {
+    "relative_path": "source/vendor/hayro/LICENSE-MIT",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/hayro/LICENSE-MIT",
+    "sha256": "51b50e6120c344dcc146bbd6375ca1c78e079d97c8bea76e67a53d6ff0efebac"
+  },
+  {
+    "relative_path": "source/vendor/hayro-interpret/assets/CGATS_LICENSE.txt",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/hayro-interpret/assets/CGATS_LICENSE.txt",
+    "sha256": "469d87b5fa48f8aaf69e25f4fcac3a309c97dbb7d561b917638abdb640e004d9"
+  },
+  {
+    "relative_path": "source/vendor/hayro-interpret/assets/LICENSE_FOXIT",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/hayro-interpret/assets/LICENSE_FOXIT",
+    "sha256": "b578cdd2345840ada550bd12519533812320d5f1d21cf4c1c7e1b1b0a31c98b7"
+  },
+  {
+    "relative_path": "source/vendor/hayro-interpret/LICENSE-APACHE",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/hayro-interpret/LICENSE-APACHE",
+    "sha256": "0cec06e0e55fbc3dc5cee4fca9b607f66cb8f4e4dbcf3b3c013594dd156732e9"
+  },
+  {
+    "relative_path": "source/vendor/hayro-interpret/LICENSE-MIT",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/hayro-interpret/LICENSE-MIT",
+    "sha256": "51b50e6120c344dcc146bbd6375ca1c78e079d97c8bea76e67a53d6ff0efebac"
+  },
+  {
+    "relative_path": "source/vendor/hayro-jbig2/LICENSE-APACHE",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/hayro-jbig2/LICENSE-APACHE",
+    "sha256": "0cec06e0e55fbc3dc5cee4fca9b607f66cb8f4e4dbcf3b3c013594dd156732e9"
+  },
+  {
+    "relative_path": "source/vendor/hayro-jbig2/LICENSE-MIT",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/hayro-jbig2/LICENSE-MIT",
+    "sha256": "51b50e6120c344dcc146bbd6375ca1c78e079d97c8bea76e67a53d6ff0efebac"
+  },
+  {
+    "relative_path": "source/vendor/hayro-syntax/LICENSE-APACHE",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/hayro-syntax/LICENSE-APACHE",
+    "sha256": "0cec06e0e55fbc3dc5cee4fca9b607f66cb8f4e4dbcf3b3c013594dd156732e9"
+  },
+  {
+    "relative_path": "source/vendor/hayro-syntax/LICENSE-MIT",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/hayro-syntax/LICENSE-MIT",
+    "sha256": "51b50e6120c344dcc146bbd6375ca1c78e079d97c8bea76e67a53d6ff0efebac"
+  },
+  {
+    "relative_path": "source/vendor/lopdf/LICENSE",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/lopdf/LICENSE",
+    "sha256": "2fb01e6708ea9d53e8b7e74bd82af23bce5256f19f4de93915027a53173c50d8"
+  },
+  {
+    "relative_path": "source/vendor/winit/LICENSE",
+    "source_url": "https://github.com/storytold/pdfcraft/blob/a016f88a908716e965e9905da7632cb136234bb7/vendor/winit/LICENSE",
+    "sha256": "6dc0e068dcf3a5bc8e054205b85b7720e1d49265bbc64bf515d2cf79197df69a"
+  },
+  {
+    "relative_path": "embedded/epaint_default_fonts-0.36.2/fonts/Hack-Regular.txt",
+    "source_url": "https://github.com/emilk/egui/blob/49682f8baa058bf49e011035cfbd6e825f88a5ef/crates/epaint_default_fonts/fonts/Hack-Regular.txt",
+    "sha256": "47c0cccbeec7e8614548cc485588b28149e7874188df5f41b36efebcee285c87"
+  },
+  {
+    "relative_path": "embedded/epaint_default_fonts-0.36.2/fonts/OFL.txt",
+    "source_url": "https://github.com/emilk/egui/blob/49682f8baa058bf49e011035cfbd6e825f88a5ef/crates/epaint_default_fonts/fonts/OFL.txt",
+    "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+  },
+  {
+    "relative_path": "embedded/epaint_default_fonts-0.36.2/fonts/UFL.txt",
+    "source_url": "https://github.com/emilk/egui/blob/49682f8baa058bf49e011035cfbd6e825f88a5ef/crates/epaint_default_fonts/fonts/UFL.txt",
+    "sha256": "2f0015108d68627bd788d313f529c21ff4da2c2c42a5e1f3883acc83480f9002"
+  },
+  {
+    "relative_path": "embedded/epaint_default_fonts-0.36.2/fonts/emoji-icon-font-mit-license.txt",
+    "source_url": "https://github.com/emilk/egui/blob/49682f8baa058bf49e011035cfbd6e825f88a5ef/crates/epaint_default_fonts/fonts/emoji-icon-font-mit-license.txt",
+    "sha256": "b9d2c1d909aa149996fd4c91dcb92b2362a04431640c1d200959da94caf8cde1"
+  },
+  {
+    "relative_path": "embedded/hayro-cmap-0.1.0/LICENSE-MIT",
+    "source_url": "https://github.com/LaurenzV/hayro/blob/a2354aebaf86f5ab13e5fd6b6b0521306488bf9d/hayro-cmap/LICENSE-MIT",
+    "sha256": "51b50e6120c344dcc146bbd6375ca1c78e079d97c8bea76e67a53d6ff0efebac"
+  },
+  {
+    "relative_path": "embedded/hayro-cmap-0.1.0/LICENSE-APACHE",
+    "source_url": "https://github.com/LaurenzV/hayro/blob/a2354aebaf86f5ab13e5fd6b6b0521306488bf9d/hayro-cmap/LICENSE-APACHE",
+    "sha256": "0cec06e0e55fbc3dc5cee4fca9b607f66cb8f4e4dbcf3b3c013594dd156732e9"
+  },
+  {
+    "relative_path": "embedded/hayro-cmap-0.1.0/assets/LICENSE.txt",
+    "source_url": "https://github.com/LaurenzV/hayro/blob/a2354aebaf86f5ab13e5fd6b6b0521306488bf9d/hayro-cmap/assets/LICENSE.txt",
+    "sha256": "742665db9c8e1bc72603c6d319ca3e90b83bd6d95202f0cd4ef11068a07a9c29"
+  },
+  {
+    "relative_path": "official-cli-fonts/OFL-biz-ud-mincho.txt",
+    "source_url": "https://github.com/storytold/pdfcraft/releases/download/v0.4.0/pdfcraft-0.4.0-windows-x64-portable.zip",
+    "sha256": "9c244a5edd2525aa4aa43dd714d7de00f3b3591a522d82d724db3644b5a95568"
+  },
+  {
+    "relative_path": "official-cli-fonts/OFL-biz-ud-pgothic.txt",
+    "source_url": "https://github.com/storytold/pdfcraft/releases/download/v0.4.0/pdfcraft-0.4.0-windows-x64-portable.zip",
+    "sha256": "062c81ae55b5ddd56c08331c8fe86598c1ef7f4453560c74706427a008b68534"
+  },
+  {
+    "relative_path": "official-cli-fonts/OFL-shippori-mincho.txt",
+    "source_url": "https://github.com/storytold/pdfcraft/releases/download/v0.4.0/pdfcraft-0.4.0-windows-x64-portable.zip",
+    "sha256": "0aef534f5885c2f30b360ed5fb09ea4661a40ec62845c35f8354e26d7977d87d"
+  }
+]

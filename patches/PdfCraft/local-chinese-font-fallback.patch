@@ -1,0 +1,120 @@
+diff --git a/crates/ui-egui/src/system_fonts.rs b/crates/ui-egui/src/system_fonts.rs
+index a7a77d7..56e3a3f 100644
+--- a/crates/ui-egui/src/system_fonts.rs
++++ b/crates/ui-egui/src/system_fonts.rs
+@@ -18,23 +18,28 @@ const MAX_FACES: u32 = 16;
+ const PROBE: char = '\u{0627}';
+ 
+ /// The installed fallback face, read once. `None` when it is turned off or no candidate fits.
+-pub fn fallback() -> Option<Arc<FontData>> {
+-    static CACHE: OnceLock<Option<Arc<FontData>>> = OnceLock::new();
+-    CACHE.get_or_init(load).clone()
++pub fn fallback(prefer_hans: bool) -> Option<Arc<FontData>> {
++    static DEFAULT: OnceLock<Option<Arc<FontData>>> = OnceLock::new();
++    static CHINESE: OnceLock<Option<Arc<FontData>>> = OnceLock::new();
++    let chinese = prefer_hans && cfg!(windows);
++    let cache = if chinese { &CHINESE } else { &DEFAULT };
++    cache.get_or_init(|| load(chinese)).clone()
+ }
+ 
+-fn load() -> Option<Arc<FontData>> {
++fn load(chinese: bool) -> Option<Arc<FontData>> {
+     if std::env::var_os("PDFCRAFT_SYSTEM_FONTS").is_some_and(|v| v == "0") {
+         return None;
+     }
+-    candidates().iter().find_map(|path| read(path))
++    let probe = if chinese { '\u{7f16}' } else { PROBE };
++    candidates(chinese).iter().find_map(|path| read_with_probe(path, probe))
+ }
+ 
+ /// Well-known locations of faces with broad script coverage, best first.
+-fn candidates() -> Vec<PathBuf> {
++fn candidates(chinese: bool) -> Vec<PathBuf> {
+     if cfg!(windows) {
+         let dir = std::env::var_os("WINDIR").or_else(|| std::env::var_os("SystemRoot")).map_or_else(|| PathBuf::from(r"C:\Windows"), PathBuf::from);
+-        ["segoeui.ttf", "tahoma.ttf", "arial.ttf"].iter().map(|f| dir.join("Fonts").join(f)).collect()
++        let files: &[&str] = if chinese { &["msyh.ttc", "msyh.ttf", "simsun.ttc"] } else { &["segoeui.ttf", "tahoma.ttf", "arial.ttf"] };
++        files.iter().map(|f| dir.join("Fonts").join(f)).collect()
+     } else if cfg!(target_os = "macos") {
+         ["/System/Library/Fonts/SFArabic.ttf", "/System/Library/Fonts/GeezaPro.ttc", "/System/Library/Fonts/Supplemental/Arial.ttf"]
+             .iter()
+@@ -54,13 +59,18 @@ fn candidates() -> Vec<PathBuf> {
+     }
+ }
+ 
++#[cfg(test)]
+ fn read(path: &Path) -> Option<Arc<FontData>> {
++    read_with_probe(path, PROBE)
++}
++
++fn read_with_probe(path: &Path, probe: char) -> Option<Arc<FontData>> {
+     let meta = std::fs::metadata(path).ok()?;
+     if !meta.is_file() || meta.len() > MAX_BYTES {
+         return None;
+     }
+     let bytes = std::fs::read(path).ok()?;
+-    let index = face_with(&bytes, PROBE)?;
++    let index = face_with(&bytes, probe)?;
+     let mut data = FontData::from_owned(bytes);
+     data.index = index;
+     log::info!("interface font fallback: {}", path.display());
+@@ -98,8 +108,17 @@ mod tests {
+ 
+     #[test]
+     fn candidates_are_absolute_font_files() {
+-        let list = candidates();
++        let list = candidates(false);
+         assert!(!list.is_empty());
+         assert!(list.iter().all(|p| p.extension().is_some_and(|e| e == "ttf" || e == "ttc")));
+     }
++
++    #[test]
++    fn windows_chinese_candidates_prefer_a_simplified_chinese_face() {
++        if cfg!(windows) {
++            let list = candidates(true);
++            assert!(list.first().is_some_and(|p| p.ends_with("msyh.ttc")));
++            assert!(list.iter().any(|p| p.ends_with("simsun.ttc")));
++        }
++    }
+ }
+diff --git a/crates/ui-egui/src/theme.rs b/crates/ui-egui/src/theme.rs
+index 5b74b64..1a559f3 100644
+--- a/crates/ui-egui/src/theme.rs
++++ b/crates/ui-egui/src/theme.rs
+@@ -149,7 +149,7 @@ pub fn installed_font_definitions(prefer_hans: bool) -> FontDefinitions {
+     #[cfg_attr(target_arch = "wasm32", expect(unused_mut))]
+     let mut fonts = font_definitions_for(prefer_hans);
+     #[cfg(not(target_arch = "wasm32"))]
+-    if let Some(data) = crate::system_fonts::fallback() {
++    if let Some(data) = crate::system_fonts::fallback(prefer_hans) {
+         fonts.font_data.insert(SYSTEM_FALLBACK.to_owned(), data);
+         for stack in fonts.families.values_mut() {
+             stack.push(SYSTEM_FALLBACK.to_owned());
+diff --git a/crates/ui-egui/tests/fonts.rs b/crates/ui-egui/tests/fonts.rs
+index d65b2b6..9f5daed 100644
+--- a/crates/ui-egui/tests/fonts.rs
++++ b/crates/ui-egui/tests/fonts.rs
+@@ -9,6 +9,23 @@ const CHINESE: &str = "简体中文欢迎";
+ const ARABIC: &str = "واحد اثنين";
+ const TELUGU: &str = "తెలుగు ఫైల్";
+ 
++/// The Windows release's Japanese face misses these Simplified Chinese interface
++/// characters. The runtime fallback must cover them in every UI font family.
++#[test]
++#[cfg(windows)]
++fn installed_windows_chinese_font_covers_the_interface() {
++    let defs = theme::installed_font_definitions(true);
++    if !defs.font_data.contains_key(theme::SYSTEM_FALLBACK) {
++        eprintln!("skipping installed_windows_chinese_font_covers_the_interface: no installed Chinese fallback or PDFCRAFT_SYSTEM_FONTS=0");
++        return;
++    }
++    let label = "创建 PDF 编辑 PDF 阅读 转换 电子签名 导出 PDF 组织页面 添加注释 扫描 保护 PDF 压缩 PDF 准备表单 证书 查找工具和命令";
++    let mut fonts = Fonts::new(TextOptions::default(), defs);
++    for id in families() {
++        assert!(fonts.has_glyphs(&id, label), "{id:?} lacks Simplified Chinese interface glyphs");
++    }
++}
++
+ fn families() -> Vec<FontId> {
+     vec![FontId::proportional(13.0), FontId::monospace(13.0), theme::medium(13.0), theme::semibold(17.0)]
+ }

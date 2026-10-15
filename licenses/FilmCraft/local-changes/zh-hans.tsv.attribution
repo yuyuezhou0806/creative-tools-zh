@@ -1,0 +1,5 @@
+asset: zh-hans.tsv
+creator: PhotoCraft and PdfCraft contributors; local translation contributors
+source: https://github.com/storytold/photocraft/blob/9c427a7a2c792d326939f5b27b1d814a7c6321a7/crates/ui-egui/src/i18n/zh-hans.tsv and https://github.com/storytold/pdfcraft/blob/49c6e2ec5437a355da4e9dadd9cc2db3476b5cf8/crates/ui-egui/src/i18n/zh-hans.tsv; original translations of FilmCraft English interface labels
+license: MIT OR Apache-2.0
+changes: 405 exact English-key translations reused; 3061 additional entries authored from English for this local build

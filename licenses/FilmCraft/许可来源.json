@@ -1,0 +1,117 @@
+[
+  {
+    "relative_path": "gui-source/LICENSE-MIT",
+    "source_url": "https://raw.githubusercontent.com/storytold/filmcraft/7b6c134472287db4367fca80bcb498240ba36567/LICENSE-MIT",
+    "sha256": "d2d8416f0883694c23b473e26372506e9e11f5f41b55a92b7388dab921d9a207"
+  },
+  {
+    "relative_path": "gui-source/LICENSE-APACHE",
+    "source_url": "https://raw.githubusercontent.com/storytold/filmcraft/7b6c134472287db4367fca80bcb498240ba36567/LICENSE-APACHE",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "relative_path": "gui-source/NOTICE",
+    "source_url": "https://raw.githubusercontent.com/storytold/filmcraft/7b6c134472287db4367fca80bcb498240ba36567/NOTICE",
+    "sha256": "5761787313b9d6c13dd5f03da2e04209ad7bd08eff8920edfd184141d791195c"
+  },
+  {
+    "relative_path": "gui-source/ATTRIBUTION.md",
+    "source_url": "https://raw.githubusercontent.com/storytold/filmcraft/7b6c134472287db4367fca80bcb498240ba36567/ATTRIBUTION.md",
+    "sha256": "1e753b3a164836f84aa08dd23c8a42d4e58a9bad0f7658e3884f9b46e8dfda8c"
+  },
+  {
+    "relative_path": "gui-source/assets/fonts/OFL-Inter.txt",
+    "source_url": "https://raw.githubusercontent.com/storytold/filmcraft/7b6c134472287db4367fca80bcb498240ba36567/assets/fonts/OFL-Inter.txt",
+    "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+  },
+  {
+    "relative_path": "gui-source/assets/fonts/OFL-NotoSerif.txt",
+    "source_url": "https://raw.githubusercontent.com/storytold/filmcraft/7b6c134472287db4367fca80bcb498240ba36567/assets/fonts/OFL-NotoSerif.txt",
+    "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+  },
+  {
+    "relative_path": "gui-source/assets/fonts/OFL-JetBrainsMono.txt",
+    "source_url": "https://raw.githubusercontent.com/storytold/filmcraft/7b6c134472287db4367fca80bcb498240ba36567/assets/fonts/OFL-JetBrainsMono.txt",
+    "sha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697"
+  },
+  {
+    "relative_path": "gui-source/assets/app-icon/LICENSE.txt",
+    "source_url": "https://raw.githubusercontent.com/storytold/filmcraft/7b6c134472287db4367fca80bcb498240ba36567/assets/app-icon/LICENSE.txt",
+    "sha256": "79d32f0c9576355f9eaedf8ba8727a149cf3e42ed753ff5d25ac882bf072e27a"
+  },
+  {
+    "relative_path": "gui-source/docs/brand/LICENSE-brand.txt",
+    "source_url": "https://raw.githubusercontent.com/storytold/filmcraft/7b6c134472287db4367fca80bcb498240ba36567/docs/brand/LICENSE-brand.txt",
+    "sha256": "d30f3aee39b72be3d1c1bdf994b75470ff53a354ca8ba6039c3a70a647b732fe"
+  },
+  {
+    "relative_path": "gui-source/NVIDIA-nvenc-license-header.txt",
+    "source_url": "https://raw.githubusercontent.com/storytold/filmcraft/7b6c134472287db4367fca80bcb498240ba36567/crates/platform/src/nvenc/ffi.rs",
+    "sha256": "ed33c7f0634c0518f8d64089e393313277a7e7e032f477050361ed9f674de9cd"
+  },
+  {
+    "relative_path": "local-changes/ATTRIBUTION-local.md",
+    "source_url": "https://github.com/storytold/filmcraft/blob/7b6c134472287db4367fca80bcb498240ba36567/ATTRIBUTION.md",
+    "sha256": "5dbbdfe4d12ecc87088029cd5c62a7e717fa6544983d9a78a8d41948d4100ccb"
+  },
+  {
+    "relative_path": "local-changes/zh-hans.tsv.attribution",
+    "source_url": "local authored attribution",
+    "sha256": "8e84103bdf5d0c62f2393458698d8161998f05203013d4e4ccbffe3104a190cc"
+  },
+  {
+    "relative_path": "official-cli/LICENSE-MIT",
+    "source_url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-0.4.0-windows-x64-portable.zip",
+    "sha256": "5fda8da5bfefc9ccc258624027b65f1335a272f7e1262a222e41509e6928b9cc"
+  },
+  {
+    "relative_path": "official-cli/LICENSE-APACHE",
+    "source_url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-0.4.0-windows-x64-portable.zip",
+    "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+  },
+  {
+    "relative_path": "official-cli/OFL-biz-ud-mincho.txt",
+    "source_url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-0.4.0-windows-x64-portable.zip",
+    "sha256": "9c244a5edd2525aa4aa43dd714d7de00f3b3591a522d82d724db3644b5a95568"
+  },
+  {
+    "relative_path": "official-cli/OFL-biz-ud-pgothic.txt",
+    "source_url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-0.4.0-windows-x64-portable.zip",
+    "sha256": "062c81ae55b5ddd56c08331c8fe86598c1ef7f4453560c74706427a008b68534"
+  },
+  {
+    "relative_path": "official-cli/OFL-shippori-mincho.txt",
+    "source_url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-0.4.0-windows-x64-portable.zip",
+    "sha256": "0aef534f5885c2f30b360ed5fb09ea4661a40ec62845c35f8354e26d7977d87d"
+  },
+  {
+    "relative_path": "translation-sources/photocraft/LICENSE-MIT",
+    "source_url": "https://raw.githubusercontent.com/storytold/photocraft/9c427a7a2c792d326939f5b27b1d814a7c6321a7/LICENSE-MIT",
+    "sha256": "1a8f66d8a86b146f5336fa0d4b1186576c8aa98e60823080c85c7811cfd810af"
+  },
+  {
+    "relative_path": "translation-sources/photocraft/LICENSE-APACHE",
+    "source_url": "https://raw.githubusercontent.com/storytold/photocraft/9c427a7a2c792d326939f5b27b1d814a7c6321a7/LICENSE-APACHE",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "relative_path": "translation-sources/pdfcraft/LICENSE-MIT",
+    "source_url": "https://raw.githubusercontent.com/storytold/pdfcraft/49c6e2ec5437a355da4e9dadd9cc2db3476b5cf8/LICENSE-MIT",
+    "sha256": "cd7032ea33b71427f188e34ffb4aee9d6868a57fd196037c5c8b2be03a2a0352"
+  },
+  {
+    "relative_path": "translation-sources/pdfcraft/LICENSE-APACHE",
+    "source_url": "https://raw.githubusercontent.com/storytold/pdfcraft/49c6e2ec5437a355da4e9dadd9cc2db3476b5cf8/LICENSE-APACHE",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "relative_path": "local-changes/filmcraft-zh-hans.patch",
+    "source_url": "local source modification based on https://github.com/storytold/filmcraft/tree/7b6c134472287db4367fca80bcb498240ba36567",
+    "sha256": "f7cd134deafd6ed576551927fd6bbd807a9e43feed691b428389e680c3fe946b"
+  },
+  {
+    "relative_path": "local-changes/中文构建说明.md",
+    "source_url": "local source modification based on https://github.com/storytold/filmcraft/tree/7b6c134472287db4367fca80bcb498240ba36567",
+    "sha256": "3cb05f1761917d31923029f88efb83a6f7a8854c0d6ca9ababbf519f7cfe9dbd"
+  }
+]

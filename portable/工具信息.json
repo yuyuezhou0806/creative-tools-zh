@@ -1,0 +1,55 @@
+{
+  "package": "Four creative tools - unofficial Chinese portable bundle",
+  "platform": "windows-x64",
+  "date": "2026-10-10",
+  "apps": {
+    "PhotoCraft": {
+      "version": "0.5.0",
+      "language": "zh-hans",
+      "gui": "PhotoCraft/photocraft.exe",
+      "cli": "PhotoCraft/photocraft-cli.exe",
+      "launcher": "启动图片编辑-PhotoCraft.cmd",
+      "gui_sha256": "942c1c34f38e2848b78f02e703cd4d6f49fda53c6d689a79993f48fc86b3b196",
+      "cli_sha256": "33ec305064bb4887ec966cd51c419aa87b4217344b38242ff8282ed3e8db6ac7",
+      "gui_kind": "official release",
+      "source_commit": null,
+      "share_brand_graphics_removed": false
+    },
+    "FilmCraft": {
+      "version": "0.4.0",
+      "language": "zh-hans",
+      "gui": "FilmCraft/filmcraft.exe",
+      "cli": "FilmCraft/filmcraft-cli.exe",
+      "launcher": "启动视频剪辑-FilmCraft.cmd",
+      "gui_sha256": "da1985e523160c13033507526a5607e63ba48700ca933baad35b94ed211bbca6",
+      "cli_sha256": "23c011d29bfaeb65b059bcb5b64df8517172d9664fb8d8129c7831463acf085d",
+      "gui_kind": "local Chinese source build",
+      "source_commit": "7b6c134472287db4367fca80bcb498240ba36567",
+      "share_brand_graphics_removed": true
+    },
+    "EffectCraft": {
+      "version": "0.6.0",
+      "language": "zh-hans",
+      "gui": "EffectCraft/effectcraft.exe",
+      "cli": "EffectCraft/effectcraft-cli.exe",
+      "launcher": "启动动效制作-EffectCraft.cmd",
+      "gui_sha256": "21992c7705c48a4bd3aa1ce10c0d603814a64bbaae63fc1f998b37cd5ca0cf92",
+      "cli_sha256": "7dcd5795de7af0d6baae725fe716f2e399e9dacc1c1ae52d5c98d879d87294bd",
+      "gui_kind": "local Chinese source build",
+      "source_commit": "30aaddf7c23329dcdfc72a5bf65b55747bbd6be1",
+      "share_brand_graphics_removed": true
+    },
+    "PdfCraft": {
+      "version": "0.4.0",
+      "language": "zh-hans",
+      "gui": "PdfCraft/pdfcraft.exe",
+      "cli": "PdfCraft/pdfcraft-cli.exe",
+      "launcher": "启动PDF处理-PdfCraft.cmd",
+      "gui_sha256": "06365e7a1a61bb2232dd087859d1c3400357616874a0b68f58926feabe2e3aa6",
+      "cli_sha256": "e92d20827e0b23efdcccb9aa799d3e99a695bc3412bcffc99f36724c01379ca7",
+      "gui_kind": "local Chinese source build",
+      "source_commit": "a016f88a908716e965e9905da7632cb136234bb7",
+      "share_brand_graphics_removed": true
+    }
+  }
+}

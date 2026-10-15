@@ -1,0 +1,9 @@
+*.exe
+*.dll
+*.zip
+*.7z
+/target/
+/build/
+/work/
+__pycache__/
+.env

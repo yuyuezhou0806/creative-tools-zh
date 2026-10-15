@@ -1,0 +1,46 @@
+{
+  "PhotoCraft": {
+    "repository": "https://github.com/storytold/photocraft",
+    "version": "0.5.0",
+    "official_release": "https://github.com/storytold/photocraft/releases/tag/v0.5.0",
+    "source_commit": null,
+    "patches_in_order": [],
+    "gui_sha256": "942c1c34f38e2848b78f02e703cd4d6f49fda53c6d689a79993f48fc86b3b196",
+    "cli_sha256": "33ec305064bb4887ec966cd51c419aa87b4217344b38242ff8282ed3e8db6ac7"
+  },
+  "FilmCraft": {
+    "repository": "https://github.com/storytold/filmcraft",
+    "version": "0.4.0",
+    "official_release": "https://github.com/storytold/filmcraft/releases/tag/v0.4.0",
+    "source_commit": "7b6c134472287db4367fca80bcb498240ba36567",
+    "patches_in_order": [
+      "patches/FilmCraft/filmcraft-zh-hans.patch"
+    ],
+    "gui_sha256": "da1985e523160c13033507526a5607e63ba48700ca933baad35b94ed211bbca6",
+    "cli_sha256": "23c011d29bfaeb65b059bcb5b64df8517172d9664fb8d8129c7831463acf085d"
+  },
+  "EffectCraft": {
+    "repository": "https://github.com/storytold/effectcraft",
+    "version": "0.6.0",
+    "official_release": "https://github.com/storytold/effectcraft/releases/tag/v0.6.0",
+    "source_commit": "30aaddf7c23329dcdfc72a5bf65b55747bbd6be1",
+    "patches_in_order": [
+      "patches/EffectCraft/local-common-chinese-ui.patch",
+      "patches/EffectCraft/remove-artcraft-mark.patch"
+    ],
+    "gui_sha256": "21992c7705c48a4bd3aa1ce10c0d603814a64bbaae63fc1f998b37cd5ca0cf92",
+    "cli_sha256": "7dcd5795de7af0d6baae725fe716f2e399e9dacc1c1ae52d5c98d879d87294bd"
+  },
+  "PdfCraft": {
+    "repository": "https://github.com/storytold/pdfcraft",
+    "version": "0.4.0",
+    "official_release": "https://github.com/storytold/pdfcraft/releases/tag/v0.4.0",
+    "source_commit": "a016f88a908716e965e9905da7632cb136234bb7",
+    "patches_in_order": [
+      "patches/PdfCraft/local-chinese-font-fallback.patch",
+      "patches/PdfCraft/remove-restricted-artcraft-marks.patch"
+    ],
+    "gui_sha256": "06365e7a1a61bb2232dd087859d1c3400357616874a0b68f58926feabe2e3aa6",
+    "cli_sha256": "e92d20827e0b23efdcccb9aa799d3e99a695bc3412bcffc99f36724c01379ca7"
+  }
+}
